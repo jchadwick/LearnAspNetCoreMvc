@@ -3,12 +3,12 @@
 
 This is the courseware repository for the Lynda.com online video training course, Learn ASP.NET Core MVC.
 
-Here you'll be able to explore all of the assets and completed code for each video in the course, as well as the full, complete application in its final state.
+Here you'll be able to explore all of the completed code for each video in the course, as well as the full, complete application in its final state.
 
 To get started, here are a few things you might be interested in:
 
-* **[Course Assets](https://github.com/jchadwick/LearnAspNetCoreMvc/assets/trunk)**
-* **[Full, Complete Sample Application](https://github.com/jchadwick/LearnAspNetCoreMvc/sample_application/trunk)**
+* **[Course Assets](#)**
+* **[Full, Complete Sample Application](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/SampleApplication)**
 * **Source Code for each video in the course:**
   * **Chapter 1**
     * **[Video 2: Create a new project](TODO)**
