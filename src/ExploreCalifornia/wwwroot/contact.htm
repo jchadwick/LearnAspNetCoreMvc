@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A little about us...</title>
+<meta name="description" content="A lynda.com example of HTML5 and CSS3">
+<meta name="keywords" content="html5, css3, lynda, local storage, canvas, forms, semantics, web apps">
+<!--make sure mobile devices display the page at the proper scale	-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="/css/main.css" rel="stylesheet" type="text/css" media="screen, projection">
+</head>
+<body class="no-js">
+<div id="wrapper">
+  <header id="mainHeader"> <a href="/" title="home" class="logo">
+   <!-- I need this div because IE is an affront to mankind-->
+    <div id="logo">
+    <h1>Explore California</h1>
+    </div>
+    </a>
+    <nav id="siteNav">
+      <h1>Where do you want to go?</h1>
+      <ul>
+       <li><a href="/tours.htm" title="Our tours">Tours <br /><span class="tagline">follow our bliss</span></a>
+          <ul>
+            <li><a href="/tours.htm" title="Our tours">All Tours</a></li>
+            <li><a href="/tours.htm" title="find tours">Tours by Activity</a></li>
+            <li><a href="/tours.htm" title="find tours">Tours by Region</a></li>
+            <li><a href="/tours.htm" title="find tours">Tour Finder</a></li>
+          </ul>
+        </li>
+        <li><a href="mission.htm" title="What we believe">Mission <br /><span class="tagline">what makes us different?</span></a></li>
+        <li><a href="resources.htm" title="planning resources">Resources <br /><span class="tagline">plan your trip</span></a>
+          <ul>
+            <li><a href="resources/faq.htm" title="Got questions?">Tour FAQs</a></li>
+            <li><a href="resources/additional_resources.htm" title="additional resources">Tour Information</a></li>
+            <li><a href="resources/terms.htm" title="terms and conditions">Site Terms</a></li>
+          </ul>
+        </li>
+        <li><a href="explorers.htm" title="Our community">Explorers <br /><span class="tagline">join our community</span></a>
+          <ul>
+            <li><a href="explorers/join.htm" title="join our community">Join the Explorers</a></li>
+            <li><a href="/blog" title="read our blog!">Read our Blog</a></li>
+            <li><a href="explorers/gallery.htm" title="contributor photos">Tour Photos</a></li>
+            <li><a href="_video/EC_podcast_full version.mov" title="check out our podcast">Video podcast</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.htm" title="contact us" class="current">Contact <br /><span class="tagline">we're listening</span></a>
+          <ul>
+            <li><a href="support.htm" title="need help?">Support</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="mainContent">
+  <header id="contentHeader" class="hasCrumbs">
+  <h1>Contact Us</h1>
+  <div id="subLinks">
+  		<ul>
+            <li><a href="support.htm" title="need help?">Support</a></li>
+          </ul>
+      </div>
+  </header>
+ <article id="mainArticle"> <h1>Get in touch</h1>
+ <img src="/images/emerald_bay.jpg" alt="Beautiful Lake Tahoe" class="articleImage" />
+ <div class="multiCol">
+   <p>If you're on this page, we're guessing you've got something to say! Drop us a line, and be sure to sign up for our newsletter. If you're looking for our seasonal tours,  let us know when you're thinking of taking a trip. Not only will we get back to you with our website exclusive tours (we don't publish these for everyone!), but we'll be sure to throw in some cool discounts and tour extras as well. </p>
+   <h2>Support options</h2>
+   <p>If you're currently on a tour and need support, please visit our <a href="support.htm">support</a> page. If none of these options are right for you and you still need to get in touch with us, feel free to call us at<span class="phone"> <strong>866.555.4310</strong>. Please note that this is not the support line, for support you could call </span><strong>866.555.4315</strong>. Thanks for getting in touch!</p>
+</div>
+<form id="frmContact" name="frmContact" method="post" action="contact_process.htm">
+          <fieldset id="personalInfo">
+            <legend><strong>Personal Information</strong></legend>
+            <p>
+              <label for="name">Name</label>
+              <input name="name" type="text" class="text" id="name" tabindex="100" placeholder="first and last name" required>
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input name="email" type="email" class="text" id="email" tabindex="110" placeholder="valid email address"  required>
+            </p>
+            <p>
+              <label for="phone">Phone</label>
+              <input name="phone" type="tel" class="text" id="phone" tabindex="130" placeholder="optional phone number">
+            </p>
+            <p>
+              <label for="address">Address</label>
+              <input name="address" type="text" class="text" id="address" tabindex="140" required>
+            </p>
+            <p>
+              <label for="state">State</label>
+              <select name="state" id="state" tabindex="150">
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KA">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+              </select>
+            </p>
+            <p>
+              <label for="zip">Zip Code</label>
+              <input name="zip" type="text" class="text" id="zip" tabindex="160">
+            </p>
+          </fieldset>
+          <fieldset id="generalInfo">
+            <legend><strong>General Information</strong></legend>
+            <p>I would like more information about the following tours</p>
+            <div class="col1">
+              <p>
+<input type="checkbox" name="backpack" id="backpack" tabindex="170">
+              <label for="backpack">Backpack Cal</label>
+</p>
+              <p>
+<input type="checkbox" name="calm" id="calm" tabindex="180">
+              <label for="calm">California Calm</label>
+</p>
+              <p>
+<input type="checkbox" name="hotsprings" id="hotsprings" tabindex="190">
+              <label for="hotsprings">California Hotsprings</label>
+</p>
+            </div>
+            <div class="col2">
+              <p>
+<input type="checkbox" name="cycle" id="cycle" tabindex="210">
+              <label for="cycle">Cycle California</label>
+</p>
+             <p>
+ <input type="checkbox" name="desert" id="desert" tabindex="220">
+              <label for="desert">From Desert to Sea</label>
+</p>
+             <p>
+ <input type="checkbox" name="kids" id="kids" tabindex="230">
+              <label for="kids">Kids California</label>
+</p>
+            </div>
+            <div class="col3">
+              <p>
+<input type="checkbox" name="nature" id="nature" tabindex="240">
+              <label for="nature">Nature Watch</label>
+</p>
+              <p>
+<input type="checkbox" name="snowboard" id="snowboard" tabindex="250">
+              <label for="snowboard">Snowboard Cali</label>
+</p>
+             <p>
+ <input type="checkbox" name="taste" id="taste" tabindex="260">
+              <label for="taste">Taste of California</label>
+</p>
+            </div>
+            <p class="clearBoth">
+         <label for="tripDate" class="inline">When are you thinking of touring?</label><br />
+        <input type="date" name="tripDate" id="tripDate" tabindex="265">
+            </p>
+            <p class="clearBoth">
+              <label for="comments">Comments</label><br />
+              <textarea name="comments2" id="comments" cols="45" rows="5" tabindex="270"></textarea>
+            </p>
+            <p>Would you like to receive our monthly tour specials newsletter? No, we don't spam or share your information with anyone else. Read our <a href="privacy.htm">privacy policy</a>.</p>
+            <p>
+              <input type="radio" name="newsletter" id="newsletter_yes" value="yes" tabindex="280">
+              <label for="newsletter_yes" class="inline break">Please send me the newsletter!</label>
+               <input type="radio" name="newsletter" id="newsletter_no" value="no" tabindex="290" checked>
+              <label for="newsletter_no" class="inline">No thanks!</label>
+            </p>
+            <p>
+              <input type="submit" name="submit2" id="submit2" value="Send" tabindex="300">
+            </p>
+          </fieldset>
+        </form>
+ </article>
+ </section>
+  <aside id="secondaryContent">
+  <div id="specials" class="callOut">
+        <h1>Monthly Specials</h1>
+        <h2 class="top"><img src="/images/calm_bug.gif" alt="California Calm" width="75" height="75" />California Calm</h2>
+        <p>Day Spa Package <br />
+          <a href="/tours/tour_detail_cycle.htm">$250</a></p>
+        <h2><img src="/images/desert_bug.gif" alt="From desert to sea" width="75" height="75" />From Desert to Sea</h2>
+        <p>2 Day Salton Sea <br />
+          <a href="/tours/tour_detail_cycle.htm">$350</a></p>
+        <h2><img src="/images/backpack_bug.gif" alt="Backpack Cali" width="75" height="41" />Backpack Cali</h2>
+        <p>Big Sur Retreat <br />
+          <a href="/tours/tour_detail_cycle.htm">$620</a></p>
+          <h2><img src="/images/taste_bug.gif" alt="Taste of California" width="75" height="75" />Taste of California</h2>
+        <p>Tapas &amp; Groves <br />
+          <a href="/tours/tour_detail_taste.htm">$150</a></p>
+      </div>
+      <div id="trivia" class="callOut">
+        <h1>Did You Know?</h1>
+          <p>California is home to many natural hot springs, which contain a high mineral content that is considered therapeutic. Calistoga is probably our most famous example but many day spas have hot tubs and water treatments that mimic these conditions.</p>
+        </div>
+  </aside>
+  <footer id="pageFooter">
+  <section id="quickLinks">
+  <h1>Quick Nav</h1>
+    <ul id="quickNav">
+      <li><a href="/" title="Our home page">Home</a></li>
+      <li><a href="/tours.htm" title="Explore our tours">Tours</a></li>
+      <li><a href="mission.htm" title="What we think">Mission</a></li>
+      <li><a href="resources.htm" title="Guidance and planning">Resources</a></li>
+      <li><a href="explorers.htm" title="Join our community">Explorers</a></li>
+      <li><a href="contact.htm" title="Contact and support">Contact</a></li>
+    </ul>
+    </section>
+  <section id="footerResources">
+  <h1>Resources</h1>
+    <ul id="quickNav">
+      <li><a href="resources/faq.htm" title="Our home page">FAQ</a></li>
+      <li><a href="support.htm" title="Need help?">Support</a></li>
+      <li><a href="resources/legal.htm" title="The fine print">Legal</a></li><li><a href="login.htm">Login</a></li>
+    </ul>
+  </section>
+  <section id="companyInfo">
+  <h1>Contact</h1>
+  <h2>Explore California</h2>
+      <p>5605 Nota Street<br />
+        Ventura, CA 93003</p>
+      <p>866.555.4310<br />866.555.4315 <em>(24 hour support)</em></p>
+  </section>
+  </footer>
+</div>
+</body>
+</html>
