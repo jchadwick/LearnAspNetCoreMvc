@@ -14,7 +14,7 @@ To get started, here are a few things you might be interested in:
 ## Source Code per video
 
 ### Chapter 1: The Basics
-  * 2: Create a new project ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_02) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_02_End))
+  * 2: Create a new project ([End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_02_End))
   * 3: Respond to HTTP requests ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_03) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_03_End))
   * 4: Leverage external dependencies ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_04) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_04_End))
   * 5: Serve static files ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_05) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch01/01_05_End))
