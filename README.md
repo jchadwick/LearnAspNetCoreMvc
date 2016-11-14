@@ -40,6 +40,7 @@ To get started, here are a few things you might be interested in:
   * 7: Reuse view markup with Partial Views ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch03/03_07) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch03/03_07_End))
   * 8: Reuse view logic with injectable services ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch03/03_08) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch03/03_08_End))
   * 9: Reuse application features with View Components ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch03/03_09) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch03/03_09_End))
+  * Challenge ([Challenge](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch03/03_Challenge) | [Solution](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch03/03_Solution))
 
 ### Chapter 4: Working with Data
   * 1: Creating strongly-typed HTML forms ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_01) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_01_End))
@@ -49,12 +50,14 @@ To get started, here are a few things you might be interested in:
   * 5: Represent the database using Entity Framework ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_05) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_05_End))
   * 6: Write to a database using Entity Framework ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_06) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_06_End))
   * 7: Read from a database using Entity Framework ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_07) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_07_End))
+  * Challenge ([Challenge](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_Challenge) | [Solution](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch04/04_Solution))
 
 ### Chapter 5: Improve your user experience with AJAX with web APIs
   * 1: Avoid page refreshes with partial rendering ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_01) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_01_End))
   * 2: Expose web API endpoints ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_02) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_02_End))
   * 3: Expose data through a web API ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_03) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_03_End))
   * 4: Consume a web API from the browser ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_04) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_04_End))
+  * Challenge ([Challenge](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_Challenge) | [Solution](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch05/05_Solution))
 
 ### Chapter 6: Secure your application
   * 1: Secure controller actions from unauthorized access ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_01) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_01_End))
