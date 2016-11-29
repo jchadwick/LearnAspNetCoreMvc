@@ -27,7 +27,7 @@ To get started, here are a few things you might be interested in:
   * 2: Add ASP.NET Core MVC to your ASP.NET Core application ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_02) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_02_End))
   * 3: Handle requests with Controllers ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_03) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_03_End))
   * 4: Pass parameters to Controller Actions ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_04) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_04_End))
-  * 5: Understand Routing ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_05) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_05_End))
+  * 5: Understand Routing (No code changes)
   * 6: Customize your application's URLs ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_06) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch02/02_06_End))
 
 ### Chapter 3: Rendering HTML with Views
