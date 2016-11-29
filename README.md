@@ -64,4 +64,4 @@ To get started, here are a few things you might be interested in:
   * 2: Add Identity Services to your application ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_02) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_02_End))
   * 3: Use Identity Services to create user accounts ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_03) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_03_End))
   * 4: Use Identity Services to allow users to login to your site ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_04) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_04_End))
-  * 5: Avoid Cross-Site Request Forgery ([Begin](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_05) | [End](https://github.com/jchadwick/LearnAspNetCoreMvc/tree/Ch06/06_05_End))
+  * 5: Avoid Cross-Site Request Forgery (No code changes)
