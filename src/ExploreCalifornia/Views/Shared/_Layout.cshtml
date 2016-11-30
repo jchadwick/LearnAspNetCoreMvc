@@ -54,10 +54,20 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="contact.htm" title="contact us" class="last">Contact <br /><span class="tagline">we're listening</span></a>
-                        <ul>
-                            <li><a href="support.htm" title="need help?">Support</a></li>
-                        </ul>
+                        @if(User.Identity.IsAuthenticated)
+                        {
+                            <form id="logout" action="@Url.Action("Logout", "Account")" method="POST">
+                                <a href="javascript: $('#logout').submit()" class="last">
+                                    Logout
+                                    <br /><span class="tagline">@User.Identity.Name</span>
+                                </a>
+                            </form>
+                        } else
+                        {
+                            <a href="@Url.Action("Login", "Account")" title="log in" class="last">
+                                Login
+                            </a>
+                        }
                     </li>
                 </ul>
             </nav>
