@@ -40,10 +40,10 @@ namespace ExploreCalifornia
                     configuration.GetValue<bool>("FeatureToggles:EnableDeveloperExceptions")
             });
 
-            services.AddDbContext<BlogDataContext>(option =>
+            services.AddDbContext<BlogDataContext>(options =>
             {
                 var connectionString = configuration.GetConnectionString("BlogDataContext");
-                option.UseSqlServer(connectionString);
+                options.UseSqlServer(connectionString);
             });
 
             services.AddMvc();
