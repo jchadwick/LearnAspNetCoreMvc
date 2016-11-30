@@ -3,19 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ExploreCalifornia.Models;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ExploreCalifornia.api
 {
-    [Route("api/[controller]")]
+    [Route("api/posts/{postKey}/comments")]
     public class CommentsController : Controller
     {
+        private readonly BlogDataContext _db;
+
+        public CommentsController(BlogDataContext db)
+        {
+            _db = db;
+        }
+
         // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IQueryable<Comment> Get(string postKey)
         {
-            return new string[] { "value1", "value2" };
+            return _db.Comments.Where(x => x.Post.Key == postKey);
         }
 
         // GET api/values/5
@@ -27,8 +35,21 @@ namespace ExploreCalifornia.api
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public Comment Post(string postKey, [FromBody]Comment comment)
         {
+            var post = _db.Posts.FirstOrDefault(x => x.Key == postKey);
+
+            if (post == null)
+                return null;
+
+            comment.Post = post;
+            comment.Posted = DateTime.Now;
+            comment.Author = User.Identity.Name;
+
+            _db.Comments.Add(comment);
+            _db.SaveChanges();
+
+            return comment;
         }
 
         // PUT api/values/5
