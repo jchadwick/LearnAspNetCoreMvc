@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Configuration;
 
 namespace ExploreCalifornia
 {
@@ -25,7 +26,11 @@ namespace ExploreCalifornia
 
             app.UseExceptionHandler("/error.html");
 
-            if (env.IsDevelopment())
+            var configuration = new ConfigurationBuilder()
+                                    .AddEnvironmentVariables()
+                                    .Build();
+
+            if (configuration.GetValue<bool>("EnableDeveloperExceptions"))
             {
                 app.UseDeveloperExceptionPage();
             }
