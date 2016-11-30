@@ -44,6 +44,8 @@ namespace ExploreCalifornia
             {
                 await context.Response.WriteAsync(" How are you?");
             });
+
+            app.UseFileServer();
         }
     }
 }
