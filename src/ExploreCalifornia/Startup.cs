@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using ExploreCalifornia.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ExploreCalifornia
 {
@@ -37,6 +38,12 @@ namespace ExploreCalifornia
             {
                 EnableDeveloperExceptions = 
                     configuration.GetValue<bool>("FeatureToggles:EnableDeveloperExceptions")
+            });
+
+            services.AddDbContext<BlogDataContext>(option =>
+            {
+                var connectionString = configuration.GetConnectionString("BlogDataContext");
+                option.UseSqlServer(connectionString);
             });
 
             services.AddMvc();
