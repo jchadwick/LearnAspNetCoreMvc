@@ -28,3 +28,30 @@
         @Html.Partial("_Post", post)
     }
 </div>
+
+<script>
+    function load(url, el) {
+        var req = new XMLHttpRequest();
+        req.addEventListener("load", function () {
+            el.innerHTML = this.responseText;
+        });
+        req.open("GET", url);
+        req.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+        req.send();
+    }
+
+    function initializePaging() {
+        var blogPostsEl = document.getElementById('mainContent');
+        var pagerButtons = document.querySelectorAll('.pager a');
+
+        pagerButtons.forEach(function () {
+            this.addEventListener('click', function (event) {
+                event.preventDefault();
+                load(event.target.href, blogPostsEl);
+                return false;
+            });
+        })
+    }
+
+    window.onload = initializePaging;
+</script>
