@@ -1,13 +1,14 @@
-﻿@{ 
+﻿@model ExploreCalifornia.Models.Post
+@{
     Layout = "_Layout";
 }
 
 <article class="blog-post">
-    <h1>@ViewBag.Title</h1>
+    <h1>@Model.Title</h1>
     <div class="details">
-        Posted <span>@ViewBag.Posted</span> by <span>@ViewBag.Author</span>
+        Posted <span>@Model.Posted</span> by <span>@Model.Author</span>
     </div>
     <div class="content">
-        @ViewBag.Body
+        @Model.Body
     </div>
 </article>
