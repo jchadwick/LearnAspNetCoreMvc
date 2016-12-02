@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using ExploreCalifornia.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace ExploreCalifornia
 {
@@ -46,6 +47,15 @@ namespace ExploreCalifornia
                 options.UseSqlServer(connectionString);
             });
 
+            services.AddDbContext<IdentityDataContext>(options =>
+            {
+                var connectionString = configuration.GetConnectionString("IdentityDataContext");
+                options.UseSqlServer(connectionString);
+            });
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<IdentityDataContext>();
+
             services.AddMvc();
         }
 
@@ -73,6 +83,8 @@ namespace ExploreCalifornia
 
                 await next();
             });
+
+            app.UseIdentity();
 
             app.UseMvc(routes =>
             {
