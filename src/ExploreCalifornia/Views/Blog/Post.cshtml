@@ -1,0 +1,13 @@
+﻿@{ 
+    Layout = "_Layout";
+}
+
+<article class="blog-post">
+    <h1>@ViewBag.Title</h1>
+    <div class="details">
+        Posted <span>@ViewBag.Posted</span> by <span>@ViewBag.Author</span>
+    </div>
+    <div class="content">
+        @ViewBag.Body
+    </div>
+</article>
