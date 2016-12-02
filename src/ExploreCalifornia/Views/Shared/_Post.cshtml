@@ -2,7 +2,7 @@
 @model ExploreCalifornia.Models.Post
 
 <article class="blog-post">
-    <h1>@Model.Title</h1>
+    <h1>@Html.ActionLink(Model.Title, "Post", "Blog", new { year = Model.Posted.Year, month = Model.Posted.Month, key = Model.Key })</h1>
     <div class="details">
         Posted <span>@Format.AsReadableDate(Model.Posted)</span> by <span>@Model.Author</span>
     </div>
