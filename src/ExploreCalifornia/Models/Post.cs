@@ -9,7 +9,7 @@ namespace ExploreCalifornia.Models
 {
     public class Post
     {
-        public long Id { get; set; }
+        public long Id { get; set;  }
 
         private string _key;
 
