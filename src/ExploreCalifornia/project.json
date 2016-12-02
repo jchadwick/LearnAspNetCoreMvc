@@ -14,7 +14,8 @@
     "Microsoft.AspNetCore.Mvc.Core": "1.0.1",
     "Microsoft.AspNetCore.Mvc": "1.0.1",
     "Microsoft.EntityFrameworkCore": "1.0.1",
-    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.1"
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.1",
+    "Microsoft.AspNetCore.Authorization": "1.0.0"
   },
 
   "tools": {
