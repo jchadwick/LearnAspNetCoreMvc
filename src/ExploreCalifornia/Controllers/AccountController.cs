@@ -43,7 +43,7 @@ namespace ExploreCalifornia.Controllers
                 {
                     ModelState.AddModelError("", error);
                 }
-
+                
                 return View();
             }
 
